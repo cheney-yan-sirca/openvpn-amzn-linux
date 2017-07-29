@@ -4,6 +4,7 @@ The purpose of this project is to create a one-button script to construct a Open
 
 For other platforms, you may want to use [script for ubuntu/debian/centos](https://github.com/Nyr/openvpn-install)
 
+
 # Prerequisite
 
 * You have already got an Amazon EC2 instance running, assuming the IP is `<SERVER_IP>`
@@ -16,12 +17,12 @@ For other platforms, you may want to use [script for ubuntu/debian/centos](https
 Run the script and follow the assistant:
 
 ```bash
-git clone $$$TODO### && cd openvpn-amzn-linux && bash openvpn-install.sh <SERVER_IP> </path/to/key.pem>
+git clone https://github.com/cheney-yan-sirca/openvpn-amzn-linux && cd openvpn-amzn-linux && bash openvpn-install.sh <SERVER_IP> </path/to/key.pem>
 ```  
 
 # Client setup
 Your client setup file will be under `openvpn-amzn-linux` directory.
-I am using [tunnelblick](https://www.tunnelblick.net/). It is just a matter of dragging the client.conf file to the client window.
+I am using [tunnelblick](https://www.tunnelblick.net/). It is just a matter of dragging the client.conf file to the app window.
 
 
 # Customization
@@ -30,4 +31,6 @@ This script is hard coded to use UDP 1194 only. Go ahead to modify the script so
 
 # Donation
 
-If I have saved your time so you can sit and enjoy a coffee, don't bother buy me one, too!  [PayPal](#TODO)
+If I have saved your time so you can sit and enjoy a coffee, don't bother buy me one, too!  
+
+[PayPal](#TODO) [Wechat](#TODO)
